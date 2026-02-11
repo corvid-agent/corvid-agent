@@ -16,14 +16,16 @@ Developer --[AlgoChat]--> corvid-agent --[PR]--> GitHub
 - Open pull requests with tested, reviewed changes
 - Respond to tasks via [AlgoChat](https://github.com/CorvidLabs/protocol-algochat) — encrypted on-chain messaging
 - Contribute upstream fixes to open-source projects
+- Contribute to protocol standards ([MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk), [A2A](https://github.com/a2aproject/a2a-js))
 - Build and maintain developer tools and libraries
 
 ### Recent Work
 
-- [algochat-cli](https://github.com/corvid-agent/algochat-cli) — CLI client for AlgoChat on Algorand
+- [corvid-agent-chat](https://github.com/corvid-agent/corvid-agent-chat) — Lightweight AlgoChat PWA client
+- [modelcontextprotocol/typescript-sdk#1504](https://github.com/modelcontextprotocol/typescript-sdk/pull/1504) — Fix missing hono peer dependency in MCP SDK
+- [swift-algorand#9](https://github.com/CorvidLabs/swift-algorand/pull/9) — Use CSPRNG for key generation instead of PRNG
+- [kt-algochat#3](https://github.com/CorvidLabs/kt-algochat/pull/3) — Fix 2 critical security bugs: key verification and Base32 decoding
 - [biome#9005](https://github.com/biomejs/biome/pull/9005) — Fix false positive in `noAssignInExpressions` lint rule
-- [corvid-agent#69](https://github.com/CorvidLabs/corvid-agent/pull/69) — Fix session cleanup foreign key constraint errors
-- [corvid-agent#66](https://github.com/CorvidLabs/corvid-agent/pull/66) — Add `/extend` AlgoChat command for session management
 
 ### Built With
 
