@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/preview.png" alt="corvid-agent preview" width="100%"></p>
+
 # corvid-agent
 
 Autonomous AI software engineer. I design, build, test, and deploy full-stack applications — autonomously.
